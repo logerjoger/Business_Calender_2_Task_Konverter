@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="issues">
+    <option name="index">
+      <map>
+        <entry key="/Dummy.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/de/logerbyte/businesscalendarconverter/MainActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../douglas_gsp/gsp/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../douglas_gsp/gsp/src/main/java/de/douglas/gsp/app/DouglasGspApp.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../douglas_gsp/gsp/src/main/java/de/douglas/gsp/app/Logger.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../douglas_gsp/gsp/src/main/java/de/douglas/gsp/base/error/NetworkErrorHandler.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../douglas_gsp/gsp/src/main/java/de/douglas/gsp/base/viewmodels/ToolbarViewModel.java">
+          <value>
+            <set>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AWnuLexvINjO5Ttog_uz" />
+                <option name="line" value="21" />
+                <option name="message" value="Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation." />
+                <option name="ruleKey" value="squid:S1186" />
+                <option name="severity" value="CRITICAL" />
+              </SonarIssue>
+            </set>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../douglas_gsp/gsp/src/main/java/de/douglas/gsp/dagger/ViewModelModule.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../douglas_gsp/gsp/src/main/java/de/douglas/gsp/database/DatabaseHelper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../douglas_gsp/gsp/src/main/java/de/douglas/gsp/database/dao/CredentialsDao.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../douglas_gsp/gsp/src/main/java/de/douglas/gsp/database/dao/CustomerDao.java">
+          <value>
+            <set>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AWnuLey2INjO5Ttog_ve" />
+                <option name="line" value="87" />
+                <option name="message" value="Use a logger to log this exception." />
+                <option name="ruleKey" value="squid:S1148" />
+                <option name="severity" value="MINOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AWnuLey2INjO5Ttog_vh" />
+                <option name="line" value="161" />
+                <option name="message" value="Use a logger to log this exception." />
+                <option name="ruleKey" value="squid:S1148" />
+                <option name="severity" value="MINOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AWnuLey2INjO5Ttog_vg" />
+                <option name="line" value="128" />
+                <option name="message" value="Use a logger to log this exception." />
+                <option name="ruleKey" value="squid:S1148" />
+                <option name="severity" value="MINOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AWnuLey2INjO5Ttog_vi" />
+                <option name="line" value="24" />
+                <option name="message" value="Rename field &quot;customerDao&quot;" />
+                <option name="ruleKey" value="squid:S1700" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AWnuLey2INjO5Ttog_vf" />
+                <option name="line" value="104" />
+                <option name="message" value="Use a logger to log this exception." />
+                <option name="ruleKey" value="squid:S1148" />
+                <option name="severity" value="MINOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AWnuLey2INjO5Ttog_vc" />
+                <option name="line" value="49" />
+                <option name="message" value="Use a logger to log this exception." />
+                <option name="ruleKey" value="squid:S1148" />
+                <option name="severity" value="MINOR" />
+              </SonarIssue>
+            </set>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../douglas_gsp/gsp/src/main/java/de/douglas/gsp/database/dao/OrderIdDao.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../douglas_gsp/gsp/src/main/java/de/douglas/gsp/database/dao/OrderStatusDao.java">
+          <value>
+            <set>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AWnuLeyeINjO5Ttog_u6" />
+                <option name="line" value="88" />
+                <option name="message" value="Use a logger to log this exception." />
+                <option name="ruleKey" value="squid:S1148" />
+                <option name="severity" value="MINOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AWnuLeyeINjO5Ttog_u-" />
+                <option name="line" value="24" />
+                <option name="message" value="Rename field &quot;orderStatusDao&quot;" />
+                <option name="ruleKey" value="squid:S1700" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AWnuLeyeINjO5Ttog_u9" />
+                <option name="line" value="162" />
+                <option name="message" value="Use a logger to log this exception." />
+                <option name="ruleKey" value="squid:S1148" />
+                <option name="severity" value="MINOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AWnuLeyeINjO5Ttog_u8" />
+                <option name="line" value="129" />
+                <option name="message" value="Use a logger to log this exception." />
+                <option name="ruleKey" value="squid:S1148" />
+                <option name="severity" value="MINOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AWnuLeyeINjO5Ttog_u7" />
+                <option name="line" value="105" />
+                <option name="message" value="Use a logger to log this exception." />
+                <option name="ruleKey" value="squid:S1148" />
+                <option name="severity" value="MINOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AWnuLeyeINjO5Ttog_u4" />
+                <option name="line" value="49" />
+                <option name="message" value="Use a logger to log this exception." />
+                <option name="ruleKey" value="squid:S1148" />
+                <option name="severity" value="MINOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AWnuLeyeINjO5Ttog_u5" />
+                <option name="line" value="69" />
+                <option name="message" value="Use a logger to log this exception." />
+                <option name="ruleKey" value="squid:S1148" />
+                <option name="severity" value="MINOR" />
+              </SonarIssue>
+            </set>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../douglas_gsp/gsp/src/main/java/de/douglas/gsp/database/dao/StaffDao.java">
+          <value>
+            <set>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AWnuLeyyINjO5Ttog_va" />
+                <option name="line" value="193" />
+                <option name="message" value="Use a logger to log this exception." />
+                <option name="ruleKey" value="squid:S1148" />
+                <option name="severity" value="MINOR" />
+              </SonarIssue>
+            </set>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../douglas_gsp/gsp/src/main/java/de/douglas/gsp/database/dao/StoreDao.java">
+          <value>
+            <set>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AWnuLeysINjO5Ttog_vT" />
+                <option name="line" value="194" />
+                <option name="message" value="Use a logger to log this exception." />
+                <option name="ruleKey" value="squid:S1148" />
+                <option name="severity" value="MINOR" />
+              </SonarIssue>
+            </set>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../douglas_gsp/gsp/src/main/java/de/douglas/gsp/databinding/BindingAdapters.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../douglas_gsp/gsp/src/main/java/de/douglas/gsp/modules/checkout/MposLoginActivity.java">
+          <value>
+            <set>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AWnuLe0HINjO5Ttog_v1" />
+                <option name="line" value="184" />
+                <option name="message" value="Complete the task associated to this TODO comment." />
+                <option name="ruleKey" value="squid:S1135" />
+                <option name="severity" value="INFO" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AWnuLe0HINjO5Ttog_v0" />
+                <option name="line" value="166" />
+                <option name="message" value="Use a logger to log this exception." />
+                <option name="ruleKey" value="squid:S1148" />
+                <option name="severity" value="MINOR" />
+              </SonarIssue>
+            </set>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../douglas_gsp/gsp/src/main/java/de/douglas/gsp/modules/checkout/MposWrapperActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../douglas_gsp/gsp/src/main/java/de/douglas/gsp/modules/customer/enrollment/BeautyCardEnrollFragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../douglas_gsp/gsp/src/main/java/de/douglas/gsp/modules/customer/enrollment/BeautyCardEnrollPresenter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../douglas_gsp/gsp/src/main/java/de/douglas/gsp/modules/customer/purchases/viewmodels/PurchaseItem.java">
+          <value>
+            <set>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AWnuLe5TINjO5Ttog_wM" />
+                <option name="line" value="147" />
+                <option name="message" value="Use a logger to log this exception." />
+                <option name="ruleKey" value="squid:S1148" />
+                <option name="severity" value="MINOR" />
+              </SonarIssue>
+            </set>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../douglas_gsp/gsp/src/main/java/de/douglas/gsp/modules/giftcard/GiftCardFragment.java">
+          <value>
+            <set>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AWnuLe6-INjO5Ttog_wg" />
+                <option name="line" value="117" />
+                <option name="message" value="This block of commented-out lines of code should be removed." />
+                <option name="ruleKey" value="squid:CommentedOutCodeLine" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+            </set>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../douglas_gsp/gsp/src/main/java/de/douglas/gsp/modules/scanner/ScannerActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../douglas_gsp/gsp/src/main/java/de/douglas/gsp/modules/settings/SettingsPresenter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../douglas_gsp/gsp/src/main/java/de/douglas/gsp/modules/splash/SplashActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../douglas_gsp/gsp/src/main/java/de/douglas/gsp/modules/splash/models/KotlinTest.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../douglas_gsp/gsp/src/main/java/de/douglas/gsp/modules/staff/tutorials/tutorialselect/TutorialSelectPresenter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../douglas_gsp/gsp/src/main/java/de/douglas/gsp/modules/webpage/views/CustomWebView.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../douglas_gsp/gsp/src/main/java/de/douglas/gsp/modules/webpage/views/CustomWebViewClient.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../douglas_gsp/gsp/src/main/java/de/douglas/gsp/monitoring/MonitoringAnalysisServicePresenter.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../douglas_gsp/gsp/src/main/java/de/douglas/gsp/monitoring/usecases/DeleteApiInfos.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../douglas_gsp/gsp/src/main/java/de/douglas/gsp/monitoring/usecases/HandleRequestError.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../douglas_gsp/gsp/src/main/java/de/douglas/gsp/monitoring/usecases/HandleWebViewError.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../douglas_gsp/gsp/src/main/java/de/douglas/gsp/monitoring/usecases/ProcessApiInfos.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../douglas_gsp/gsp/src/main/java/de/douglas/gsp/monitoring/usecases/RunAnalysis.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../douglas_gsp/gsp/src/main/java/de/douglas/gsp/monitoring/usecases/SaveApiInfo.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../douglas_gsp/gsp/src/main/java/de/douglas/gsp/monitoring/usecases/SendApiInfos.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../douglas_gsp/gsp/src/main/java/de/douglas/gsp/network/interceptors/LoggingInterceptor.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../douglas_gsp/gsp/src/main/java/de/douglas/gsp/network/interceptors/OCloudHmac.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../douglas_gsp/gsp/src/main/java/de/douglas/gsp/tracking/internal/DebugLog.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../douglas_gsp/gsp/src/main/java/de/douglas/gsp/tracking/tracker/hockey/DouglasCrashManager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../douglas_gsp/gsp/src/main/java/de/douglas/gsp/utils/ActivityHelper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../douglas_gsp/gsp/src/main/java/de/douglas/gsp/utils/DebugLog.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../douglas_gsp/gsp/src/main/java/de/douglas/gsp/utils/Formatters.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../douglas_gsp/gsp/src/main/java/de/douglas/gsp/utils/JsonUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../douglas_gsp/gsp/src/main/java/de/douglas/gsp/utils/Logger.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../douglas_gsp/gsp/src/main/java/de/douglas/gsp/utils/LoggerJava.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../douglas_gsp/gsp/src/main/java/de/douglas/gsp/utils/LoggerKotlin.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../douglas_gsp/gsp/src/main/java/de/douglas/gsp/utils/MacAddress.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../douglas_gsp/gsp/src/main/java/de/douglas/gsp/utils/Md5.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../douglas_gsp/gsp/src/main/java/de/douglas/gsp/utils/ResourcesUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../douglas_gsp/gsp/src/main/res/layout/plain_toolbar.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../douglas_gsp/gsp/src/main/res/layout/view_customer_data_form_nl.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../douglas_gsp/gsp/src/test/java/de/douglas/gsp/utils/IntentStarterTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../douglas_gsp/jacoco.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/a.dummy">
+          <value>
+            <set />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
