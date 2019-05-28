@@ -17,8 +17,6 @@ public class Bc2File {
     public static final String REGEX_DATE = "\\d\\d.\\d\\d.\\d\\d\\d\\d";
     public static final String OUT_PATH = "bc2t_test_file" + File.separator + "out.ics";
 
-    private String pathName;
-
     public static void createIcsFile(Bc2TaskJson[] jsonFile) {
         createNewFile(OUT_PATH);
 
@@ -65,24 +63,4 @@ public class Bc2File {
         }
     }
 
-    String getPathName() {
-        return pathName;
-    }
-
-    void setPathName(String pathName) {
-        this.pathName = pathName;
-    }
-
-    public String readFileContent(String pathName) {
-        try {
-            return new String(Files. readAllBytes(Paths.get(pathName)), StandardCharsets.UTF_8);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        return null;
-    }
-
-    public String[] splitContent(String content, String regex) {
-        return content.split(regex);
-    }
 }

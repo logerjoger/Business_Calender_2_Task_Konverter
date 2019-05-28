@@ -12,26 +12,23 @@ public class Bc2TaskReader {
     public Bc2TaskReader() {
     }
 
-    public Bc2TaskJson[] createBc2tJsonFromFile(String arg) {
+    public Bc2TaskJson[] createBc2tJsonFromFile(String pathFile) {
         Gson gson = new Gson();
-        Bc2File bc2TaskBc2File = new Bc2File();
-        bc2TaskBc2File.setPathName(arg);
+        String convertedText = replaceLineSeparator(pathFile);
+        JsonReader jsonReader = new JsonReader(new StringReader(convertedText));
 
-
-        String replacedString = replaceLineSeparator(arg);
-
-        JsonReader jsonReader = new JsonReader(new StringReader(replacedString));
         return gson.fromJson(jsonReader, Bc2TaskJson[].class);
     }
 
     private String replaceLineSeparator(String pathname) {
 
-        String string = null;
+        String textRAW = null;
         try {
-            string = new String(Files.readAllBytes(Paths.get(pathname)), StandardCharsets.UTF_8);
+            // TODO: 2019-05-28 resolve min sdk errors
+            textRAW = new String(Files.readAllBytes(Paths.get(pathname)), StandardCharsets.UTF_8);
         } catch (IOException e) {
             e.printStackTrace();
         }
 
-        return string.replace(System.lineSeparator(), "");    }
+        return textRAW.replace(System.lineSeparator(), "");    }
 }
