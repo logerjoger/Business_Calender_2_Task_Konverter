@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">BusinessCalendarConverter</string>
+    <string name="Calendar_filePath_hint">file path</string>
+    <string name="main_bu_convert_path">Convert</string>
 </resources>
