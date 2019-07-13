@@ -12,7 +12,7 @@ public class Bc2TaskReader {
     public Bc2TaskReader() {
     }
 
-    public Bc2TaskJson[] createBc2tJsonFromFile(String pathFile) {
+    public Bc2TaskJson[] createJson(String pathFile) {
         Gson gson = new Gson();
         String convertedText = replaceLineSeparator(pathFile);
         JsonReader jsonReader = new JsonReader(new StringReader(convertedText));

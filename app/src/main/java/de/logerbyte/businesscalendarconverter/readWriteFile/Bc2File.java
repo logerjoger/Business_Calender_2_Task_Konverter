@@ -15,9 +15,9 @@ import java.text.SimpleDateFormat;
 
 public class Bc2File {
     public static final String REGEX_DATE = "\\d\\d.\\d\\d.\\d\\d\\d\\d";
-    public static final String OUT_PATH = "bc2t_test_file" + File.separator + "out.ics";
+    private static final String OUT_PATH = "bc2t_test_file" + File.separator + "out.ics";
 
-    public static void createIcsFile(Bc2TaskJson[] jsonFile) {
+    public static void createICS(Bc2TaskJson[] jsonFile) {
         createNewFile(OUT_PATH);
 
         Path path = Paths.get(OUT_PATH);

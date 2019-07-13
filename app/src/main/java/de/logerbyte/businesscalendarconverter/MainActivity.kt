@@ -22,8 +22,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun convertTaskToCalendar(filePath: String) {
-        val bcJson = Bc2TaskReader().createBc2tJsonFromFile(filePath)
-        Bc2File.createIcsFile(bcJson)
+        val bcJson = Bc2TaskReader().createJson(filePath)
+        Bc2File.createICS(bcJson)
     }
 
 
