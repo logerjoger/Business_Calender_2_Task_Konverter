@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
         initLayout()
     }
 
-    private fun start(filePath: String) {
+    private fun convertTaskToCalendar(filePath: String) {
         val bcJson = Bc2TaskReader().createBc2tJsonFromFile(filePath)
         Bc2File.createIcsFile(bcJson)
     }
@@ -32,6 +32,6 @@ class MainActivity : AppCompatActivity() {
         button = findViewById(R.id.buConvert)
         editText = findViewById(R.id.main_filePath)
 
-        button.setOnClickListener { start(editText.text.toString()) }
+        button.setOnClickListener { convertTaskToCalendar(editText.text.toString()) }
     }
 }
