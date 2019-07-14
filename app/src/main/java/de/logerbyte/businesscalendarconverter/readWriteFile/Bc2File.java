@@ -1,5 +1,6 @@
 package de.logerbyte.businesscalendarconverter.readWriteFile;
 
+import android.os.Build;
 import de.logerbyte.businesscalendarconverter.ical.IcalConstants;
 
 import java.io.File;
@@ -15,7 +16,7 @@ import java.text.SimpleDateFormat;
 
 public class Bc2File {
     public static final String REGEX_DATE = "\\d\\d.\\d\\d.\\d\\d\\d\\d";
-    private static final String OUT_PATH = "bc2t_test_file" + File.separator + "out.ics";
+    private static final String OUT_PATH = "build" + File.separator + "outputs" + File.separator + "Tasks.ics";
 
     public static void createICS(Bc2TaskJson[] jsonFile) {
         createNewFile(OUT_PATH);
