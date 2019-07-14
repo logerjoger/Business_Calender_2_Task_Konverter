@@ -14,13 +14,13 @@ public class Bc2TaskReader {
 
     public Bc2TaskJson[] createJson(String pathFile) {
         Gson gson = new Gson();
-        String convertedText = replaceLineSeparator(pathFile);
+        String convertedText = deleteCR(pathFile);
         JsonReader jsonReader = new JsonReader(new StringReader(convertedText));
 
         return gson.fromJson(jsonReader, Bc2TaskJson[].class);
     }
 
-    private String replaceLineSeparator(String pathname) {
+    private String deleteCR(String pathname) {
 
         String textRAW = null;
         try {
